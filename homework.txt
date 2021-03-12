@@ -1,0 +1,9 @@
+The attached csv files have data for the 2013 calendar year.
+ - Create a flask application
+ - Add a model for your Divvy table based on the .csv
+ - Connect your flask app to a database via SQLALCHEMY_DATABASE_URI
+ - Run your migrations
+ - Import the attached DivvyChallenge.csv file into new table in database.
+ - Using Flask, create a REST API endpoint (aka route) that accepts 'starttime' and 'endtime' parameters and returns the average duration for that time span in the response.
+If you have time:
+ - Update the endpoint to accept a  'from_station_id' parameter that further filters the results by the stations that the trip started from.  Include the id and name of the station in the response.
